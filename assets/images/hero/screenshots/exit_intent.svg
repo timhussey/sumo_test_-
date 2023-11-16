@@ -1,0 +1,38 @@
+<svg width="230px" height="151px" viewBox="0 0 230 151" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="path-lfgi-nahd5-1" points="0 0 11 0 11 14 0 14"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Large-Copy" transform="translate(-843, -2607)">
+            <g id="Exit-Intent" transform="translate(843, 2607)">
+                <rect id="Rectangle-Copy-33" fill="#242415" x="0" y="0" width="230" height="151" rx="3"></rect>
+                <rect id="Rectangle-Copy-34" fill="#F0F0F3" x="5" y="16" width="219" height="129" rx="2"></rect>
+                <circle id="Oval-Copy-12" fill="#E6E6E6" cx="13" cy="9" r="3"></circle>
+                <circle id="Oval-Copy-13" fill="#E6E6E6" cx="24" cy="9" r="3"></circle>
+                <circle id="Oval-Copy-14" fill="#E6E6E6" cx="35" cy="9" r="3"></circle>
+                <rect id="Rectangle-Copy-35" fill="#DBDBE7" x="18" y="26" width="97" height="108"></rect>
+                <rect id="Rectangle-Copy-42" fill="#DBDBE7" x="119" y="83" width="97" height="51"></rect>
+                <rect id="Rectangle-Copy-36" fill="#DBDBE7" x="119" y="26" width="97" height="6"></rect>
+                <rect id="Rectangle-Copy-43" fill="#DBDBE7" x="119" y="37" width="97" height="6"></rect>
+                <rect id="Rectangle-Copy-44" fill="#DBDBE7" x="119" y="48" width="97" height="6"></rect>
+                <rect id="Rectangle-Copy-45" fill="#DBDBE7" x="119" y="59" width="97" height="6"></rect>
+                <rect id="Rectangle-Copy-46" fill="#DBDBE7" x="119" y="70" width="97" height="6"></rect>
+                <rect id="Rectangle-Copy-47" fill="#2680B7" x="65" y="51" width="106" height="53" rx="3"></rect>
+                <rect id="Rectangle-Copy-48" fill="#FFFFFF" x="70" y="56" width="97" height="43"></rect>
+                <rect id="Rectangle-Copy-49" fill="#2F2F2F" x="93" y="69" width="50" height="2"></rect>
+                <rect id="Rectangle-Copy-50" fill="#2F2F2F" x="93" y="74" width="50" height="2"></rect>
+                <rect id="Rectangle-Copy-51" fill="#FF8002" x="103" y="80" width="30.1764706" height="9" rx="4.5"></rect>
+                <g id="Group-5" transform="translate(13, 11)">
+                    <polygon id="Fill-1" fill="#FEFEFE" points="10 8.92149887 5.00001094 4.96073853 0 1 0.344173199 7.35441155 0.688324509 13.7088231 3.5113371 11.3698575 4.87397754 14 7.81334886 12.4887975 6.4390419 9.83610921 6.54156717 9.783386"></polygon>
+                    <g id="Group-4">
+                        <mask id="mask-lfgi-nahd5-2" fill="white">
+                            <use xlink:href="#path-lfgi-nahd5-1"></use>
+                        </mask>
+                        <g id="Clip-3"></g>
+                        <path d="M3.94516833,10.7302047 C3.96357167,10.7302047 3.98206646,10.7320096 4.00042408,10.7356873 C4.08293049,10.7522254 4.15338899,10.8047952 4.19200172,10.8786186 L5.48780271,13.3565314 L8.06417906,12.044248 L6.75617014,9.54300588 C6.68580308,9.40846767 6.73927565,9.24313209 6.87559754,9.17368573 L6.9827027,9.11913041 C7.00174616,9.10942867 7.02188696,9.10191547 7.04269074,9.09679386 L10.1088703,8.33974283 L0.588398855,0.86814506 L1.24422079,12.8648115 L3.76753608,10.7935818 C3.81787665,10.752293 3.88085951,10.7302047 3.94516833,10.7302047 M5.36835245,14 C5.33995872,14 5.31147355,13.9956726 5.28390283,13.9870087 C5.21371866,13.9648978 5.15533091,13.9161861 5.12154192,13.8515906 L3.85692374,11.4333321 L1.17428809,13.6353547 C1.093542,13.7015973 0.981795997,13.7173005 0.885549951,13.6758313 C0.789303904,13.634362 0.724972224,13.5428498 0.719302623,13.4393346 L0.000406381307,0.288883923 C-0.00549183247,0.181127002 0.0532159697,0.0800033588 0.150376468,0.0305245213 C0.247559827,-0.0189543162 0.365066877,-0.0075829828 0.450636699,0.0595620333 L10.8951159,8.25633049 C10.9778738,8.32124185 11.016075,8.42694561 10.9936938,8.52892662 C10.9713126,8.63088506 10.8922125,8.71147713 10.7896568,8.73681445 L7.39770377,9.57429961 L8.68522897,12.0364189 C8.75559603,12.1709346 8.70212346,12.3363153 8.56580157,12.4057391 L5.49575844,13.9694553 C5.45600265,13.9897162 5.41226899,14 5.36835245,14" id="Fill-2" fill="#231F20" mask="url(#mask-lfgi-nahd5-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

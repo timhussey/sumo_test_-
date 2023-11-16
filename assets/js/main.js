@@ -2,35 +2,33 @@
   "use strict";
 
   // ======= Sticky
-  window.onscroll = function () {
-    const ud_header = document.querySelector(".ud-header");
-    const sticky = ud_header.offsetTop;
-    const logo = document.querySelector(".header-logo");
+  const ud_header = document.querySelector(".ud-header");
+  const sticky = ud_header.offsetTop;
+  const logo = document.querySelector(".header-logo");
+  const backToTop = document.querySelector(".back-to-top");
+  let isSticky = false; // to track sticky state
 
-    if (window.pageYOffset > sticky) {
-      ud_header.classList.add("sticky");
-    } else {
-      ud_header.classList.remove("sticky");
+  const handleScroll = () => {
+    const shouldStick = window.scrollY > sticky;
+    
+    if (shouldStick !== isSticky) {
+      ud_header.classList.toggle("sticky", shouldStick);
+      logo.src = shouldStick 
+        ? "assets/images/logo/sumologo.png" 
+        : "assets/images/logo/sumologo.png";
+      isSticky = shouldStick;
     }
 
-    // === logo change
-    if (ud_header.classList.contains("sticky")) {
-      logo.src = "assets/images/logo/sumologo.png";
-    } else {
-      logo.src = "assets/images/logo/sumologo.png";
-    }
-
-    // show or hide the back-top-top button
-    const backToTop = document.querySelector(".back-to-top");
-    if (
-      document.body.scrollTop > 50 ||
-      document.documentElement.scrollTop > 50
-    ) {
-      backToTop.style.display = "flex";
-    } else {
-      backToTop.style.display = "none";
-    }
+    const showBackToTop = 
+      document.body.scrollTop > 50 || document.documentElement.scrollTop > 50;
+    backToTop.style.display = showBackToTop ? "flex" : "none";
   };
+
+  const throttledHandleScroll = () => {
+    requestAnimationFrame(handleScroll);
+  };
+
+  window.addEventListener('scroll', throttledHandleScroll);
 
   // ===== responsive navbar
   let navbarToggler = document.querySelector("#navbarToggler");

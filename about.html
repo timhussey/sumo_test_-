@@ -148,36 +148,32 @@
     </div>
     <!-- ====== Navbar Section End -->
 
+
+
+
     <!-- ====== Hero Section Start -->
-    <div
-      id="home"
-      class="relative pt-[120px] md:pt-[130px] lg:pt-[160px] pb-[160px] bg-black "
+    <section
+      id="hero-section"
+      class="relative pt-[120px] md:pt-[130px] lg:pt-[200px] pb-[160px] bg-[#EDF0F6]"
     >
-    <div class="container flex justify-center items-center relative z-10">
-      <div class="flex flex-wrap justify-center items-center -mx-4 relative">
+    <div class="container flex justify-center items-stretch relative z-10">
+      <div class="w-full flex flex-wrap justify-center items-center -mx-4 relative">
         <div class="w-full px-4">
           <div
-            class="hero-content text-center max-w-[780px] mx-auto"
+            class="hero-content text-center max-w-[80%] mx-auto"
             data-wow-delay=".2s"
           >
             <h1
-              class="text-white font-family-415MD font-bold text-[55px] leading-snug mb-8"
+              class="text-[#191911] font-family-415MD font-bold text-[35px] md:text-[45px] lg:text-[55px] leading-snug mb-8"
             >
-              The #1 FREE email capture tool
-            </h1>
-            <p
-              class="text-base font-family-415MD sm:text-lg md:text-xl mx-auto mb-10 text-[#e4e4e4] max-w-[600px]"
-            >
-              Generate more leads from proven lead form designs
+            We’re on a mission to provide the <span class="text-[#2A70E0]">best-in-class online tools for businesses to generate leads</span>. <br /><br /> In other words, we’re here to help <span class="text-[#2A70E0]">businesses have more conversations</span> with more people.
+        </h1>
+        <br>
+        <br>
+            <p class="text-[32px] font-family-415MD">
+                ⬆️ conversations = ⬆️ conversions<br>
             </p>
 
-            <form class="flex justify-center items-center gap-3 mx-auto">
-              <input type="url" class="h-[50px] w-[60%] rounded-4xl border border-form-stroke bg-white px-5 text-lg outline-none focus:border-primary sm:w-auto sm:w-[60%] sm:min-w-[300px] lg:min-w-[400px]" placeholder="Your Site URL">
-              <button class="h-[50px] rounded-4xl bg-primary px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 text-lg text-white transition text-wrap-none hover:bg-opacity-90">
-                Let's Go!
-              </button>
-            </form>
-
           </div>
         </div>
       </div>
@@ -185,317 +181,9 @@
 
       </div>
 
-      <!-- ====== animated screenshots Start-->
-      <div class="screenshot-container w-full h-full  flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_bottom,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] opacity-60">
-
-        <div class="column_1">
-          <div
-            id="column_1_screenshots"
-            x-data="{}"
-            x-init="$nextTick(() => {
-              let ul = $refs.logos;
-              ul.insertAdjacentHTML('afterend', ul.outerHTML);
-              ul.nextSibling.setAttribute('aria-hidden', 'true');
-            })"
-            class=" h-full inline-block flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_bottom,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
-          >
-            <ul
-              x-ref="logos"
-              class="flex flex-column items-center justify-center md:justify-start [&amp;_li]:mx-8 sm:[&amp;_img]:max-w-[100px] md:[&amp;_img]:max-w-[150px] lg:[&amp;_img]:max-w-[250px] xl:[&amp;_img]:max-w-[350px] 2xl:[&amp;_img]:max-w-[450px] animate-infinite-scroll space-y-4"
-            >
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_0.png" alt="Facebook" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_1.png" alt="Disney" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_2.png" alt="Airbnb" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_3.png" alt="Apple" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_4.png" alt="Spark" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_5.png" alt="Samsung" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_6.png" alt="Quora" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_7.png" alt="Sass" />
-              </li>
-            </ul>
-            <ul
-              x-ref="logos"
-              class="flex flex-column items-center justify-center md:justify-start [&amp;_li]:mx-8 sm:[&amp;_img]:max-w-[100px] md:[&amp;_img]:max-w-[150px] lg:[&amp;_img]:max-w-[250px] xl:[&amp;_img]:max-w-[350px] 2xl:[&amp;_img]:max-w-[450px] animate-infinite-scroll space-y-4"
-              aria-hidden="true"
-            >
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_0.png" alt="Facebook" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_1.png" alt="Disney" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_2.png" alt="Airbnb" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_3.png" alt="Apple" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_4.png" alt="Spark" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_5.png" alt="Samsung" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_6.png" alt="Quora" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_7.png" alt="Sass" />
-            </li>
-            
-            </ul>
-          </div>
 
 
-
-          <div
-          id="column_2_screenshots"
-          x-data="{}"
-          x-init="$nextTick(() => {
-            let ul = $refs.logos;
-            ul.insertAdjacentHTML('afterend', ul.outerHTML);
-            ul.nextSibling.setAttribute('aria-hidden', 'true');
-          })"
-          class=" h-full inline-block flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_bottom,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
-        >
-          <ul
-            x-ref="logos"
-            class="flex flex-column items-center justify-center md:justify-start [&amp;_li]:mx-8 sm:[&amp;_img]:max-w-[100px] md:[&amp;_img]:max-w-[150px] lg:[&amp;_img]:max-w-[250px] xl:[&amp;_img]:max-w-[350px] 2xl:[&amp;_img]:max-w-[450px] animate-infinite-scroll-75 space-y-4"
-          >
-          <li>
-            <img src="./assets/images/hero/screenshots/screenshot_6.png" alt="Quora" />
-          </li>
-          <li>
-            <img src="./assets/images/hero/screenshots/screenshot_7.png" alt="Sass" />
-          </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_0.png" alt="Facebook" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_1.png" alt="Disney" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_2.png" alt="Airbnb" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_3.png" alt="Apple" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_4.png" alt="Spark" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_5.png" alt="Samsung" />
-            </li>
-            
-          </ul>
-          <ul
-            x-ref="logos"
-            class="flex flex-column items-center justify-center md:justify-start [&amp;_li]:mx-8 sm:[&amp;_img]:max-w-[100px] md:[&amp;_img]:max-w-[150px] lg:[&amp;_img]:max-w-[250px] xl:[&amp;_img]:max-w-[350px] 2xl:[&amp;_img]:max-w-[450px] animate-infinite-scroll-75 space-y-4"
-            aria-hidden="true"
-          >
-          <li>
-            <img src="./assets/images/hero/screenshots/screenshot_6.png" alt="Quora" />
-          </li>
-          <li>
-            <img src="./assets/images/hero/screenshots/screenshot_7.png" alt="Sass" />
-          </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_0.png" alt="Facebook" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_1.png" alt="Disney" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_2.png" alt="Airbnb" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_3.png" alt="Apple" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_4.png" alt="Spark" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_5.png" alt="Samsung" />
-            </li>
-          
-          </ul>
-        </div>
-
-
-
-
-        </div>
-        
-        <div class="column_2">
-          <div
-          id="column_4_screenshots"
-            x-data="{}"
-            x-init="$nextTick(() => {
-              let ul = $refs.logos;
-              ul.insertAdjacentHTML('afterend', ul.outerHTML);
-              ul.nextSibling.setAttribute('aria-hidden', 'true');
-            })"
-            class=" h-full inline-block flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_bottom,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
-          >
-            <ul
-              x-ref="logos"
-              class="flex flex-column items-center justify-center md:justify-start [&amp;_li]:mx-8 sm:[&amp;_img]:max-w-[100px] md:[&amp;_img]:max-w-[150px] lg:[&amp;_img]:max-w-[250px] xl:[&amp;_img]:max-w-[350px] 2xl:[&amp;_img]:max-w-[450px] animate-infinite-scroll space-y-4"
-            >
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_3.png" alt="Apple" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_1.png" alt="Disney" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_5.png" alt="Samsung" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_7.png" alt="Sass" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_4.png" alt="Spark" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_6.png" alt="Quora" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_2.png" alt="Airbnb" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_0.png" alt="Facebook" />
-            </li>
-            
-            </ul>
-            <ul
-              x-ref="logos"
-              class="flex flex-column items-center justify-center md:justify-start [&amp;_li]:mx-8 sm:[&amp;_img]:max-w-[100px] md:[&amp;_img]:max-w-[150px] lg:[&amp;_img]:max-w-[250px] xl:[&amp;_img]:max-w-[350px] 2xl:[&amp;_img]:max-w-[450px] animate-infinite-scroll space-y-4"
-              aria-hidden="true"
-            >
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_3.png" alt="Apple" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_1.png" alt="Disney" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_5.png" alt="Samsung" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_7.png" alt="Sass" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_4.png" alt="Spark" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_6.png" alt="Quora" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_2.png" alt="Airbnb" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_0.png" alt="Facebook" />
-            </li>
-            
-            </ul>
-          </div>
-
-          <div
-          id="column_3_screenshots"
-            x-data="{}"
-            x-init="$nextTick(() => {
-              let ul = $refs.logos;
-              ul.insertAdjacentHTML('afterend', ul.outerHTML);
-              ul.nextSibling.setAttribute('aria-hidden', 'true');
-            })"
-            class=" h-full inline-block flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_bottom,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
-          >
-            <ul
-              x-ref="logos"
-              class="flex flex-column items-center justify-center md:justify-start [&amp;_li]:mx-8 sm:[&amp;_img]:max-w-[100px] md:[&amp;_img]:max-w-[150px] lg:[&amp;_img]:max-w-[250px] xl:[&amp;_img]:max-w-[350px] 2xl:[&amp;_img]:max-w-[450px] animate-infinite-scroll-75 space-y-4"
-            >
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_0.png" alt="Facebook" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_1.png" alt="Disney" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_2.png" alt="Airbnb" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_3.png" alt="Apple" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_4.png" alt="Spark" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_5.png" alt="Samsung" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_6.png" alt="Quora" />
-              </li>
-              <li>
-                <img src="./assets/images/hero/screenshots/screenshot_7.png" alt="Sass" />
-              </li>
-            </ul>
-            <ul
-              x-ref="logos"
-              class="flex flex-column items-center justify-center md:justify-start [&amp;_li]:mx-8 sm:[&amp;_img]:max-w-[100px] md:[&amp;_img]:max-w-[150px] lg:[&amp;_img]:max-w-[250px] xl:[&amp;_img]:max-w-[350px] 2xl:[&amp;_img]:max-w-[450px] animate-infinite-scroll-75 space-y-4"
-              aria-hidden="true"
-            >
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_0.png" alt="Facebook" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_1.png" alt="Disney" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_2.png" alt="Airbnb" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_3.png" alt="Apple" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_4.png" alt="Spark" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_5.png" alt="Samsung" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_6.png" alt="Quora" />
-            </li>
-            <li>
-              <img src="./assets/images/hero/screenshots/screenshot_7.png" alt="Sass" />
-            </li>
-            
-            </ul>
-          </div>
-
-
-        </div>
-
-
-      </div>
-      <!-- ====== animated screenshots End -->
-
-
-    </div>
+    </section>
     <!-- ====== Hero Section End -->
 
     <!-- ====== Features Section Start -->
@@ -503,25 +191,151 @@
       <div class="container">
 
 
+                
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full px-4">
+
+
+
+            <div class="lg:flex items-top gap-24 justify-between  overflow-hidden">
+              
+              
+              <div class="mb-12 lg:mb-20 text-center bg-[#F9F5F2] p-5 flex justify-center items-center h-full">
+                <div class="relative z-10">
+                  <img src="assets/images/hero/screenshots/screenshot_0.png" alt="image" class="mx-auto lg:ml-auto max-w-[85%] py-12 my-[100px]">
+                </div>
+              </div>
+              
+              
+              <div class="mb-12 lg:mb-20 max-w-[620px] mr-12">
+                  <h2
+                    class="font-bold text-3xl sm:text-4xl md:text-[45px] !leading-[58px] text-dark mb-4"
+                  >
+                  We believe that lead generation is about having as many quality conversations as possible.
+                  </h2>
+                  <p
+                    class="text-lg sm:text-xl leading-relaxed sm:leading-relaxed text-body-color"
+                  >
+                  After all, conversations are the cornerstone of good relationships—and we believe that businesses that build relationships with their customers make a bigger impact on the world (and usually see a bigger return, too).
+                  <br />
+                  <br />
+After years of helping tens of thousands of businesses build their websites, we noticed that many businesses struggled with one thing…
+                  <br />
+                  <br />
+                  </p>
+                  
+                  <p
+                    class="text-3xl sm:text-2xl md:text-3xl lg:text-3xl leading-relaxed sm:leading-relaxed text-dark"
+                  >
+                  … building and connecting with an audience.
+                  <br />
+                  </p>
+    
+  
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full px-4">
+
+
+
+            <div class="lg:flex items-top gap-24 justify-between  overflow-hidden">
+              <div class="mb-12 lg:mb-20 max-w-[620px] mr-12">
+
+
+                  <!-- <span class="font-semibold text-lg text-primary mb-2 block">
+                    Features
+                  </span> -->
+                  <h2
+                    class="font-bold text-xl sm:text-xl md:text-[26px] !leading-[26px] text-dark mb-4"
+                  >
+                  That’s why we’ve set out to build the smartest lead generation tools available today…
+                  </h2>
+                  <p
+                    class="text-lg sm:text-xl leading-relaxed sm:leading-relaxed text-body-color"
+                  >
+                  So that you can…
+                  <br />
+                  <br />
+                  </p>
+                  <ul class="list-arrow list-inside text-lg sm:text-xl text-body-color">
+                    <li>Convert anonymous <span class="font-bold text-dark font-family-415MD">traffic</span> websites into <span class="font-bold text-dark font-family-415MD">relationships</span></li>
+                    <li>Learn more about your community with <span class="font-bold text-dark font-family-415MD">targeted offers and messages.</span></li>
+                    <li>Win back customers and <span class="font-bold text-dark font-family-415MD">increase average order value</span> using our ecommerce integrations.</li>
+                    <li>Connect with the <span class="font-bold text-dark font-family-415MD">right message with the right people.</span></li>
+                    <li>Go straight to your community’s inbox and <span class="font-bold text-dark font-family-415MD">skip the social media algorithms.</span></li>
+                  </ul>
+                  
+                  <br />
+                    
+              </div>
+
+
+              <div class="mb-12 lg:mb-20 text-center bg-[#ECEFF2] p-5 flex justify-center items-center h-full">
+                <div class="relative z-10">
+                  <img src="assets/images/hero/screenshots/screenshot_7.png" alt="image" class="mx-auto lg:ml-auto py-12 max-w-[65%]">
+                </div>
+              </div>
+
+              
+            </div>
+
+          </div>
+        </div>
+
+      
+      
+      
+      
+      
+      
         <div class="flex flex-wrap -mx-4 pb-[100px]">
           <div class="w-full md:w-1/3 lg:w-1/3 px-4">
             <div class="bg-white text-center mb-12 group wow fadeInUp" data-wow-delay=".1s">
-              <h2 class="font-bold font-family-706MD text-3xl sm:text-4xl md:text-[55px] !leading-[58px] text-primary mb-4">
-                30,000+
-              </h2>
+              <div class="
+                  w-full
+                  h-full
+                  flex
+                  items-center
+                  justify-center                  
+                  rounded-2xl
+                  mb-8
+                  relative
+                  z-10
+                ">
+                <img src="assets/images/hero/screenshots/welcome_mat.svg" alt="icon" />
+              </div>
               <h4 class="font-bold text-xl text-dark mb-3">
-                active installs
+                Welcome Mat
               </h4>              
             </div>
           </div>
           <div class="w-full md:w-1/3 lg:w-1/3 px-4">
            
             <div class="bg-white text-center mb-12 group wow fadeInUp" data-wow-delay=".15s">
-              <h2 class="font-bold font-family-706MD text-3xl sm:text-4xl md:text-[55px] text-primary mb-4">
-                14-Day
-              </h2>
+              <div class="
+                  w-full
+                  h-full
+                  flex
+                  items-center
+                  justify-center                  
+                  rounded-2xl
+                  mb-8
+                  relative
+                  z-10
+                ">
+                <img src="assets/images/hero/screenshots/exit_intent.svg" alt="icon" />
+              </div>
               <h4 class="font-bold text-xl text-dark mb-3">
-                money back guarantee
+                Exit Intent
               </h4>              
             </div>
 
@@ -529,294 +343,148 @@
           <div class="w-full md:w-1/3 lg:w-1/3 px-4">
             
             <div class="bg-white text-center mb-12 group wow fadeInUp" data-wow-delay=".2s">
-              <h2 class="font-bold font-family-706MD text-3xl sm:text-4xl md:text-[55px] text-primary mb-4">
-                $0
-              </h2>
+              <div class="
+                  w-full
+                  h-full
+                  flex
+                  items-center
+                  justify-center                  
+                  rounded-2xl
+                  mb-8
+                  relative
+                  z-10
+                ">
+                <img src="assets/images/hero/screenshots/intelligent_popups.svg" alt="icon" />
+              </div>
               <h4 class="font-bold text-xl text-dark mb-3">
-                free to get started
+                Intelligent Pop-Ups
               </h4>              
             </div>
 
           </div>
         </div>
-
-        <div class="flex flex-wrap -mx-4">
-          <div class="w-full px-4">
-
-
-
-            <div class="lg:flex items-top gap-24 justify-between  overflow-hidden">
-              <div class="mb-12 lg:mb-20 max-w-[620px] mr-12">
-
-
-                  <!-- <span class="font-semibold text-lg text-primary mb-2 block">
-                    Features
-                  </span> -->
-                  <h2
-                    class="font-bold text-3xl sm:text-4xl md:text-[55px] !leading-[58px] text-dark mb-4"
-                  >
-                  Build Stunning Lead Forms
-                  </h2>
-                  <p
-                    class="text-lg sm:text-xl leading-relaxed sm:leading-relaxed text-body-color"
-                  >
-                  Generate more leads from proven lead form design templates. Use our advanced targeting features to target the right people with the offers and our social share buttons to make content go viral. Features include…
-                  <br />
-                  <br />
-                  </p>
-                  <ul class="grid grid-cols-2 gap-4 list-disc list-inside text-lg sm:text-xl text-body-color">
-                    <li>Welcome Mat</li>
-                    <li>Scroll Boxes</li>
-                    <li>Exit Intent</li>
-                    <li>Social Share Buttons</li>
-                    <li>Smart Bars</li>
-                    <li>Advanced Targeting</li>
-                  </ul>
-                  
-                  <br />
-                  <p
-                    class="text-lg sm:text-xl leading-relaxed sm:leading-relaxed text-body-color"
-                  >
-                  Integrate with your website in less than 2-minutes. No coding required.
-                  <br />
-                  </p>
-    
-                  <br />
-                  <button
-                  class="h-[50px] rounded-4xl bg-primary px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 text-lg text-white transition hover:bg-opacity-90"
-                >
-                  Let's Go!
-                </button>
-  
+        <div class="flex flex-wrap -mx-4 pb-[100px]">
+          <div class="w-full md:w-1/3 lg:w-1/3 px-4">
+            <div class="bg-white text-center mb-12 group wow fadeInUp" data-wow-delay=".1s">
+              <div class="
+                  w-full
+                  h-full
+                  flex
+                  items-center
+                  justify-center                  
+                  rounded-2xl
+                  mb-8
+                  relative
+                  z-10
+                ">
+                <img src="assets/images/hero/screenshots/smart_bar.svg" alt="icon" />
               </div>
-
-
-              <div class="mb-12 lg:mb-20 text-center bg-[#F9F5F2] p-5 flex justify-center items-center h-full">
-                <div class="relative z-10">
-                  <img src="assets/images/hero/screenshots/screenshot_2.png" alt="image" class="mx-auto lg:ml-auto max-w-[65%]">
-                </div>
+              <h4 class="font-bold text-xl text-dark mb-3">
+                Smart Bar
+              </h4>              
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 lg:w-1/3 px-4">
+           
+            <div class="bg-white text-center mb-12 group wow fadeInUp" data-wow-delay=".15s">
+              <div class="
+                  w-full
+                  h-full
+                  flex
+                  items-center
+                  justify-center                  
+                  rounded-2xl
+                  mb-8
+                  relative
+                  z-10
+                ">
+                <img src="assets/images/hero/screenshots/scroll_box.svg" alt="icon" />
               </div>
+              <h4 class="font-bold text-xl text-dark mb-3">
+                Scroll Box
+              </h4>              
+            </div>
 
+          </div>
+          <div class="w-full md:w-1/3 lg:w-1/3 px-4">
+            
+            <div class="bg-white text-center mb-12 group wow fadeInUp" data-wow-delay=".2s">
+              <div class="
+                  w-full
+                  h-full
+                  flex
+                  items-center
+                  justify-center                  
+                  rounded-2xl
+                  mb-8
+                  relative
+                  z-10
+                ">
+                <img src="assets/images/hero/screenshots/ab_testing.svg" alt="icon" />
+              </div>
+              <h4 class="font-bold text-xl text-dark mb-3">
+                A/B Testing
+              </h4>              
             </div>
 
           </div>
         </div>
+      
         
-        
-        
-        <div class="flex flex-wrap -mx-4">
-          <div class="w-full px-4">
+      
+      
 
 
-
-            <div class="lg:flex items-top gap-24 justify-between  overflow-hidden">
-              
-              
-              <div class="mb-12 lg:mb-20 text-center bg-[#CAD3E3] p-5 flex justify-center items-center h-full">
-                <div class="relative z-10">
-                  <img src="assets/images/hero/screenshots/Group-93.png" alt="image" class="mx-auto lg:ml-auto max-w-[65%] p-12 bg-white">
-                </div>
-              </div>
-              
-              
-              <div class="mb-12 lg:mb-20 max-w-[620px] mr-12">
-                  <h2
-                    class="font-bold text-3xl sm:text-4xl md:text-[55px] !leading-[58px] text-dark mb-4"
-                  >
-                  Get Actionable Insights
-                  </h2>
-                  <p
-                    class="text-lg sm:text-xl leading-relaxed sm:leading-relaxed text-body-color"
-                  >
-                  Sumo makes it easy to test campaign variations and make data-driven decisions. Get access to testing tools and lead dashboards to better understand your audience:
-                  <br />
-                  <br />
-                  </p>
-                  <ul class="list-disc list-inside text-lg sm:text-xl text-body-color">
-                    <li>A/B Test Designs</li>
-                    <li>Get Real-Time Insights</li>
-                    <li>Measure conversion rates</li>
-                    <li>Understand performance at-a-glance</li>
-                  </ul>
-                  
-                  <br />
-                  <p
-                    class="text-lg sm:text-xl leading-relaxed sm:leading-relaxed text-body-color"
-                  >
-                  Optimization has never been so easy.
-                  <br />
-                  </p>
-    
-                  <br />
-                  <button
-                  class="h-[50px] rounded-4xl bg-primary px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 text-lg text-white transition hover:bg-opacity-90"
-                >
-                  Let's Go!
-                </button>
-  
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-
-
-
-
-        <div class="flex flex-wrap -mx-4">
-          <div class="w-full px-4">
-
-
-
-            <div class="lg:flex items-top gap-24 justify-between  overflow-hidden">
-              <div class="mb-12 lg:mb-20 max-w-[620px] mr-12">
-
-
-                  <!-- <span class="font-semibold text-lg text-primary mb-2 block">
-                    Features
-                  </span> -->
-                  <h2
-                    class="font-bold text-3xl sm:text-4xl md:text-[55px] !leading-[58px] text-dark mb-4"
-                  >
-                  Increase E-Commerce Conversion Rates 
-                  </h2>
-                  <p
-                    class="text-lg sm:text-xl leading-relaxed sm:leading-relaxed text-body-color"
-                  >
-                  Sumo integrates directly with WooCommerce and Shopify to help online stores boost conversion rates and sales. Use Sumo&apos;s ecommerce integrations to…
-                  <br />
-                  <br />
-                  </p>
-                  <ul class="list-disc list-inside text-lg sm:text-xl text-body-color">
-                    <li>Reduce cart abandonment</li>
-                    <li>Generate unique discount codes</li>
-                    <li>Win back customers</li>
-                    <li>See the ROI from every subscriber</li>
-                    <li>Increase average order value</li>
-                  </ul>
-                  
-                  <br />
-                  <p
-                    class="text-lg sm:text-xl leading-relaxed sm:leading-relaxed text-body-color"
-                  >
-                  Convert more visitors into sales.
-                  <br />
-                  </p>
-    
-                  <br />
-                  <button
-                  class="h-[50px] rounded-4xl bg-primary px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 text-lg text-white transition hover:bg-opacity-90"
-                >
-                  Let's Go!
-                </button>
-  
-              </div>
-
-
-              <div class="mb-12 lg:mb-20 text-center bg-[#F9F5F2] p-5 flex justify-center items-center h-full">
-                <div class="relative z-10">
-                  <img src="assets/images/hero/screenshots/shopify_wordpress.png" alt="image" class="mx-auto float-right lg:ml-auto max-w-[65%]">
-                </div>
-              </div>
-
-              
-            </div>
-
-          </div>
-        </div>
-
+      
+      
       </div>
     </section>
     <!-- ====== Features Section End -->
 
-    <!-- ====== Whats New Section Start -->
+       
+    <!-- ====== Closing Section Start -->
     <section
-      id="whatsnew"
-      class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-[#EDF0F6]"
+    id="pricing"
+    class="
+      bg-white
+      pt-10
+      lg:pt-[40px]
+      pb-12
+      lg:pb-[90px]
+      relative
+      z-20
+      overflow-hidden
+    "
     >
-      <div class="container">
-        <div class=" wow fadeInUp" data-wow-delay=".2s">
-          <div class="flex flex-wrap -mx-4">
-            <div class="w-full px-4">
-              <div
-                class="lg:flex items-center justify-between overflow-hidden"
-              >
-              <div class="text-center">
-                <div class="relative inline-block z-10">
-                  <img
-                    src="assets/images/hero/screenshots/screenshot_11.png"
-                    alt="image"
-                    class="mx-auto lg:ml-auto max-w-[85%] p-12"
-                  />
-                </div>
-              </div>
-                <div
-                  class="lg:max-w-[665px] xl:max-w-[640px] w-full py-12 px-7 sm:px-12 md:p-16 lg:py-9 lg:px-16 xl:p-[70px] items-center justify-center text-center"
-                >
-                  
-                  <h2 class="font-bold text-3xl sm:text-4xl md:text-[55px] !leading-[58px] text-dark mb-4 text-wrap-none">
-                  
-                    What's new for Sumo?
-                  </h2>
-                  
-                  <a
-                    href="javascript:void(0)"
-                    class="inline-flex items-center justify-center py-4 px-6 rounded-4xl text-white bg-primary text-base font-medium hover:bg-opacity-90 hover:shadow-lg transition duration-300 ease-in-out"
-                  >
-                    Read More
-                  </a>
-                </div>
-                
-              </div>
-            </div>
+    <div class="container">
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full px-4">
+          <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[1000px]">
+            
+            <h2
+              class="text-[#191911] font-family-415MD font-bold text-[35px] md:text-[45px] lg:text-[45px] leading-snug mb-8"
+            >
+              Our goal is to make it as easy as possible for businesses to have conversations and build relationships with their customers.
+            </h2>
+            
+
+            <br />
+            <button
+              class="h-[70px] rounded-4xl bg-primary px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 text-xl text-white transition hover:bg-opacity-90"
+            >
+              Let's Go!
+            </button>
+
+
           </div>
         </div>
       </div>
+
+      
+    </div>
     </section>
-    <!-- ====== About Section End -->
+    <!-- ====== Closing Section End -->
 
-    
-    
-      <div class="flex flex-wrap -mx-4 py-[100px]">
-          <div class="w-full px-4">
-
-
-
-            <div class="lg:flex items-top gap-24 justify-center items-center text-center  overflow-hidden">
-              <div class="mb-12 lg:mb-20 mr-12">
-
-
-                  <!-- <span class="font-semibold text-lg text-primary mb-2 block">
-                    Features
-                  </span> -->
-                  <h2
-                    class="font-bold text-3xl sm:text-4xl md:text-[55px] !leading-[58px] text-dark mb-4"
-                  >
-                  Integrate with Your Favorite Tools
-                  </h2>              
-                  <br />
-                  <img src="assets/images/hero/screenshots/partners.png" alt="image" class="mx-auto lg:ml-auto max-w-[65%] mb-[60px]">
-                  
-              
-                  <button
-                  class="h-[70px] rounded-4xl bg-primary px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 text-xl text-white transition hover:bg-opacity-90"
-                >
-                  Let's Go!
-                </button>
-
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-   
-    <!-- ====== Features Section End -->
-
-
-
-   
 
     <!-- ====== Footer Section Start -->
     <footer

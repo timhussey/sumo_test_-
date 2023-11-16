@@ -2667,3 +2667,14 @@ body {
 .text-wrap-none {
   text-wrap: nowrap;
 }
+.list-arrow > li::before {
+  content: '';
+	position: relative;
+  display: inline-block;
+	left: 0;
+	top: 0px;
+	width: 20px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url(../images/hero/screenshots/blue_arrow.svg);
+}
